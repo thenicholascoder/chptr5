@@ -13,7 +13,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
   test "should get help" do
     # get help_path
-    get apple_path
+    get banana_path
     assert_response :success
     assert_select "title", "Help | #{@base_title}"
   end

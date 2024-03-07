@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # get '/help', to: 'static_pages#help'
-  get '/help', to: 'static_pages#help', as: 'apple'
+  get '/help', to: 'static_pages#help', as: 'banana'
   get '/about', to: 'static_pages#about'
   get '/contact', to: 'static_pages#contact'
 
